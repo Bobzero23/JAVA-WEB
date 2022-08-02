@@ -1,5 +1,3 @@
-
-
 /* SERVLET CONFIG AND SERVLET CONTEXT 
  * we use these two to get the initial value for the servlet or application 
  * 
