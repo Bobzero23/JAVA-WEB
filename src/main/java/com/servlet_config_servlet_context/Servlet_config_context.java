@@ -1,4 +1,4 @@
-package com.bobzero;
+package com.servlet_config_servlet_context;
 
 /*must import*/
 import java.io.IOException;
@@ -15,7 +15,7 @@ public class Servlet_config_context extends HttpServlet {
 	public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
 		
 		PrintWriter out = response.getWriter();
-		out.print(" hello <br>");
+		out.print("hello");
 		
 		ServletContext ctx = getServletContext();
 		/*this wiill give you the value of the attribute you specify*/

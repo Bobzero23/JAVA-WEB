@@ -1,3 +1,4 @@
+package com.hello_world;
 /* INTRODUCTION TO JSP AND SERVLETS 
  * 
  * I assume you already set up the <Tomcat> and created a <Web Daynamic Project>
