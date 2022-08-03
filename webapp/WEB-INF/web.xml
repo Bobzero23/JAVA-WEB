@@ -40,6 +40,19 @@
 </servlet-mapping>
 
 
+<servlet>
+<servlet-name>ServletConfigContext</servlet-name> 
+<servlet-class>com.servlet_config_servlet_context.Servlet_config_context</servlet-class>
+<init-param>
+<param-name>name</param-name>
+<param-value>Bobzero</param-value>
+</init-param>
+</servlet>
+<servlet-mapping>
+<servlet-name>ServletConfigContext</servlet-name>
+<url-pattern>/home</url-pattern>
+</servlet-mapping>
+
 <context-param>
 <param-name>name</param-name>
 <param-value>Bobzero</param-value>
