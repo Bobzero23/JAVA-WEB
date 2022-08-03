@@ -13,24 +13,24 @@ import jakarta.servlet.http.HttpSession;
 public class Called_servlet extends HttpServlet {
 
 	public void service(HttpServletRequest req, HttpServletResponse res) throws IOException {
-		
+
 		/*declara the session*/
 		HttpSession session = req.getSession();
 		int k = (int)session.getAttribute("k");
-		
+
 		/*just incase you wanna delete the k*/
 		//like after user logged in delete the link or anything
 		//session.removeAttribute("k");
-		
+
 		/*calculation*/
 		k = k * k;
-		
+
 		/*receiving an object from another servlet*/
 		/*it's object so I parse it to integer*/
 		//int k = (int) req.getAttribute("k");
-		
 
-		
+
+
 		PrintWriter out = res.getWriter();
 		out.println("The square is: " + k);
 	}

@@ -11,22 +11,22 @@ import jakarta.servlet.http.HttpServletResponse;
 
 @SuppressWarnings("serial")
 public class Servlet_config_context extends HttpServlet {
-	
+
 	public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
-		
+
 		PrintWriter out = response.getWriter();
 		out.print("hello");
-		
+
 		ServletContext ctx = getServletContext();
 		/*this wiill give you the value of the attribute you specify*/
 		String str = ctx.getInitParameter("name");
-		
+
 		/*displaying results*/
 		out.println(str);
-		
-		 
-		
-		
+
+
+
+
 	}
 
 }

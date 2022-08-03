@@ -1,6 +1,7 @@
 package com.addition;
 
 import java.io.IOException;
+
 import java.io.PrintWriter;
 
 /*must imports*/
@@ -18,14 +19,14 @@ public class Addition extends HttpServlet {
 		/*fetching the values from html file*/
 		int i = Integer.parseInt(req.getParameter("num1"));
 		int j = Integer.parseInt(req.getParameter("num2"));
-		
+
 		/*calculation*/
 		int k = (j + i);
-		
+
 		/*displaying results*/
 		PrintWriter out = res.getWriter();
 		out.println("The result of addition is : " + k);
-		
+
 	}
 
 }
