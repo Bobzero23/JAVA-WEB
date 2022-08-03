@@ -1,3 +1,4 @@
+package com.calling_servlet;
 /*CALLING A SERVLET FROM THE SERVLET
  * + just create another servlet
  * + create a RequestDispatcher object on the class you wanna call 

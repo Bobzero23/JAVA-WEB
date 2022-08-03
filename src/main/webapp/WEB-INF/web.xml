@@ -6,7 +6,6 @@
 <servlet-name>Addition</servlet-name> 
 <servlet-class>com.bobzero.Addition</servlet-class>
 </servlet>
- 
 <servlet-mapping>
 <servlet-name>Addition</servlet-name>
 <url-pattern>/add</url-pattern>
@@ -14,13 +13,30 @@
 
 
 <servlet>
-<servlet-name>HelloWorld</servlet-name> 
-<servlet-class>com.bobzero.HelloWorld</servlet-class>
+<servlet-name>Hello World</servlet-name> 
+<servlet-class>com.hello_world.HelloWorld</servlet-class>
 </servlet>
- 
 <servlet-mapping>
-<servlet-name>HelloWorld</servlet-name>
+<servlet-name>Hello World</servlet-name>
 <url-pattern>/Hello</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+<servlet-name>calling a servlet</servlet-name> 
+<servlet-class>com.calling_servlet.Calling_servlet</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>calling a servlet</servlet-name>
+<url-pattern>/Calling</url-pattern>
+</servlet-mapping>
+<servlet>
+<servlet-name>called  servlet</servlet-name> 
+<servlet-class>com.calling_servlet.Called_servlet</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>called  servlet</servlet-name>
+<url-pattern>/sq</url-pattern>
 </servlet-mapping>
 
 

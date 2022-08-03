@@ -1,4 +1,4 @@
-package com.bobzero;
+package com.calling_servlet;
 
 /*must import*/
 import java.io.IOException;
@@ -15,7 +15,7 @@ import jakarta.servlet.http.HttpSession;
 
 /*the class which will behave as a servlet*/
 @SuppressWarnings({ "serial", "unused" })
-public class Add_servlet extends HttpServlet {
+public class Calling_servlet extends HttpServlet {
 
 	/*this method is also a must*/
 	public void doPost(HttpServletRequest req, HttpServletResponse res) throws IOException, ServletException {

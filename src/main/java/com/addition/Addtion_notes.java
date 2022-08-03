@@ -1,3 +1,4 @@
+package com.addition;
 /* in our demo html class we tried to add two numbers but for that we need a SERVLET 
  * 
  * we will create a normal java class and that will behave just like a servlet 
