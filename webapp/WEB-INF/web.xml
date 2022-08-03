@@ -45,14 +45,6 @@
 <param-value>Bobzero</param-value>
 </context-param>
 
-<servlet>
-<servlet-name>sservletContextConfig</servlet-name> 
-<servlet-class>com.servlet_config_servlet_context.Servlet_config_context</servlet-class>
-</servlet>
-<servlet-mapping>
-<servlet-name>servletContextConfig</servlet-name>
-<url-pattern>/home</url-pattern>
-</servlet-mapping>
 
 
 
