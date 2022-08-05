@@ -21,7 +21,7 @@ public class Addition extends HttpServlet {
 		int j = Integer.parseInt(req.getParameter("num2"));
 
 		/*calculation*/
-		int k = (j + i);
+		int k = j + i;
 
 		/*displaying results*/
 		PrintWriter out = res.getWriter();

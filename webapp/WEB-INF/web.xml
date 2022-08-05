@@ -4,7 +4,7 @@
  
 <servlet>
 <servlet-name>Addition</servlet-name> 
-<servlet-class>com.bobzero.Addition</servlet-class>
+<servlet-class>com.addition.Addition</servlet-class>
 </servlet>
 <servlet-mapping>
 <servlet-name>Addition</servlet-name>
