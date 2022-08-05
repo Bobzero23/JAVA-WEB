@@ -19,5 +19,16 @@
  *  simply in the FORM tag of html write the JSP file name and you are good to go
  *  
  *  
+ *  JUST YOU KNOW THAT EVERY JSP FILE IS CONVERTED TO SERVLET
+ *  <% here %> whatever you write inside these tags will go to the service method, or doGetor doPost
+ *  <%! here %> whatever you write inside tese tags will go outside the servive method but inside the class
+ *  <%@page here %> inside this tag you write your imports example <%@here import = "java.uitl.*"%>
+ *  what if you have multiple imports, okay this is what you will do 
+ *  <%@page import = "java.util.*, java.uitl.Scanner"%>
+ *  <%= here %> whatever you write inside this will go to out.print(whatever)
+ *  The list of the names of these brackets by order scriplet, declaration, directive, expression.
+ *  
+ *  
+ *  
  *  
  */
