@@ -36,7 +36,8 @@
  *  whichi we will use to handle any error in other files.. is better to define it as an error page 
  *  and to do that simply in DIRECTIVE TAG say isErrorPage = "true" then you can the exception object inside the
  *  expression tag like this <%= exception.getMassage()%> to print any error. btw if you do initiate as an
- *  error page these object wont work for this file 
+ *  error page these object wont work for this file  and dont forget also to initiate the error page 
+ *  in the class you want to handle the erros like errorPage = "NameOfTheErrorPage" 
  *  
  *  
  *  
